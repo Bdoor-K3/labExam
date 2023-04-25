@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="Javascript" type="text/Javascript" href="js.js">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        var name;
+var grade;
+name =window.prompt('Please enter your name');
+grade =window.prompt('Please enter your grade');
+
+if(grade>=90)
+document.writeln("Hello "+name+"Your Grade is A" );
+else 
+if(grade>=80)
+document.writeln("Hello "+name+"Your Grade is B" );
+else 
+if(grade>=70)
+document.writeln("Hello "+name+"Your Grade is C" );
+else 
+document.writeln("Hello "+name+"Your Grade is D" );
+    </script>
+
+</head>
+<body>
+    <h1 class="h1">Saudi Electronic University</h1>
+    <br>
+    <h1 class="h11">Web technologies Lab exam</h1>
+    <h2>Your name...<br>ID...</h2>
+    <p>Your collage <ins>which level.</ins></p>
+    <label>Programming Skills :</label>
+    <input type="checkbox" name="Skills" value="Java">Java
+    <input type="checkbox" name="Skills" value="Python">Python
+    <input type="checkbox" name="Skills" value="PHP">PHP
+    <br><br>
+    <label>Terms and Conditions :</label>
+    <input type="radio" name="Term" value="Agreed">Agreed
+    <input type="radio" name="Term" value="Disagreed">Disagreed
+    <p class="blue"><ins>Submit your grade</ins></p>
+    <h3 class="border">Outcome learnings of this course</h3>
+    <ul>
+        <li>Formats</li>
+        <li>Adding images</li>
+        <li>Font Family</li>
+        <li>CSS and HTML</li>
+    </ul>
+    <hr>
+    <h3 class="yellow">Tags in HTML5</h3>
+    <ol>
+    <li><dl >:descriptin list</li>
+    <li><dt >:descriptin term</li>
+    </ol>
+    <hr>
+    <h3>Rate yourself in this course</h3>
+    <select>
+        <option>Excellent </option>
+        <option>very good</option>
+        <option>good</option>
+    </select>
+</body>
+</html>
